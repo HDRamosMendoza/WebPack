@@ -1,0 +1,12 @@
+{
+  "name": "1_Ejercicio",
+  "version": "1.0.0",
+  "description": "First example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ing. Heber Daniel Ramos Mendoza (HDRamosMendoza) - https://HDRamosMendoza.github.io/Perfil-Profesional/",
+  "license": "ISC"
+}
