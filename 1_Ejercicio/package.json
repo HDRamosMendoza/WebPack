@@ -4,7 +4,8 @@
   "description": "First example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --watch --colors", 
+    "start": "webpack-dev-server --progress --colors"
   },
   "keywords": [],
   "author": "Ing. Heber Daniel Ramos Mendoza (HDRamosMendoza) - https://HDRamosMendoza.github.io/Perfil-Profesional/",
