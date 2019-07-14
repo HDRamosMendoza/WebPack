@@ -19,9 +19,6 @@ module.exports = {
 		port: 8080,
 		inline: true
 	},
-	module: {
-		loaders: [
-			{
                 /*
                     expresion regular que nos
                     tomen en cuenta todos los 
