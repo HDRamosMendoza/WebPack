@@ -1,29 +1,24 @@
 module.exports = {
 	entry: {
 		app: './src/index.js'
-	},
+    },
+    context: __dirname,
 	output: {
 		path: './build',
 		filename: 'bundle.js',
 		publicPath: '/build/'
     },
 	resolve: {
-		extensions: ['', '.js']
+		extensions: ['', '.js','.jsx']
 	},
-    /* 
-        Nos crea un servidor que este creado
-        en NODE EXPRESS "inline: true "
-    */
 	devServer: {
 		host: '0.0.0.0',
 		port: 8080,
 		inline: true
-	},
-                /*
-                    expresion regular que nos
-                    tomen en cuenta todos los 
-                    archivos js
-                */ 
+    },
+	module: {
+		loaders: [
+			{
 				test: /(\.js|.jsx)$/,
 				loader: 'babel',
 				exclude: '/node_modules/',
@@ -35,3 +30,12 @@ module.exports = {
 	}
  }
  
+ /* 
+	Nos crea un servidor que este creado
+	en NODE EXPRESS "inline: true "
+*/
+/*
+	expresion regular que nos
+	tomen en cuenta todos los 
+	archivos js
+*/ 
