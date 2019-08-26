@@ -68,5 +68,26 @@ npx webpack app.js -o output.js
     npm i uuid
     https://www.npmjs.com/package/uuid
 
+- mini css extract plugin. Usamos este plugin con intension
+    de sacar el css del js para mostrar. Solo por motivo
+    academicos. Si agregamos este plugin .. los css se estan integrando con el js.
+
+    npm install --save-dev mini-css-extract-plugin
+    https://github.com/webpack-contrib/mini-css-extract-plugin
+
+    use: [
+        MiniCssExtractPlugin.loader,
+        'css-loader',
+        'sass-loader'
+    ],
+
+    plugins: [
+        new HtmlPlugin({
+            template: './src/index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename: 'bundle.css'
+        })
+    ],
 
 npx webpack-dev-server
