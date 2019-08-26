@@ -62,3 +62,11 @@ npx webpack app.js -o output.js
     ],
 
 - JQUERY. Instalando jquery
+    https://www.npmjs.com/package/jquery
+
+- UUID. Te genera ID aleatorios.
+    npm i uuid
+    https://www.npmjs.com/package/uuid
+
+
+npx webpack-dev-server
