@@ -60,3 +60,5 @@ npx webpack app.js -o output.js
         {loader: 'css-loader'},
         {loader: 'sass-loader'}
     ],
+
+- JQUERY. Instalando jquery
