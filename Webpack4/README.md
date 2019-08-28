@@ -2,6 +2,12 @@
 Ejemplo guía de FAZT.
 https://www.youtube.com/watch?v=vF2emKbaP4M
 
+> Para crear una package JSON
+    npm init --yes
+
+> Instalación global
+    npm i webpack -g
+
 > Instalación local
     npm i webpack
 
