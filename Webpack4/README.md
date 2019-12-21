@@ -2,6 +2,8 @@
 Ejemplo guía de FAZT.
 https://www.youtube.com/watch?v=vF2emKbaP4M
 
+Web pack es un empaquetador de modulos de FRONTEND. Administrar dependencias.
+
 > Para crear una package JSON
     npm init --yes
 
