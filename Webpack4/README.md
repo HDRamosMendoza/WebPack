@@ -1,4 +1,7 @@
 # WebPack 4
+Es un empaquetador de módulos de FRONTEND. No lo en DESARROLLO sino en PRODUCCIÓN.
+Establecer un entorno de desarrollo.
+
 Ejemplo guía de FAZT.
 https://www.youtube.com/watch?v=vF2emKbaP4M
 
@@ -13,12 +16,13 @@ Web pack es un empaquetador de modulos de FRONTEND. Administrar dependencias.
 > Instalación local
     npm i webpack
 
-> Instalar webpack cli
+> Instalar webpack cli. Complemento de webpack
     npm i webpack-cli
 
 Para convertir
 webpack app.js -o output.js
 
+- Se indica que tome el archivo "app.js" y que genere un nuevo archivo "output"
 npx webpack app.js -o output.js
 
 - __dirname. Constante de NODE. Es la direccion de muestro en el sistema operativo.
