@@ -10,7 +10,7 @@ Web pack es un empaquetador de modulos de FRONTEND. Administrar dependencias.
 > Para crear una package JSON
     npm init --yes
 
-> Instalación global
+> Instalación global para que la palabra WEBPACK funcione como un comando.
     npm i webpack -g
 
 > Instalación local
@@ -19,7 +19,8 @@ Web pack es un empaquetador de modulos de FRONTEND. Administrar dependencias.
 > Instalar webpack cli. Complemento de webpack
     npm i webpack-cli
 
-Para convertir
+Para convertir. En el caso de que no reconosca webpack como comando se debe de usar npx antes de la palabra webpack.
+Tener en cuenta que se debe tener instalado webpack-cli.
 webpack app.js -o output.js
 
 - Se indica que tome el archivo "app.js" y que genere un nuevo archivo "output"
@@ -28,6 +29,7 @@ npx webpack app.js -o output.js
 - __dirname. Constante de NODE. Es la direccion de muestro en el sistema operativo.
 
 - Se debe de tener configurado el webpack.config.js
+Nota: npx es para ejecutar código y npm es para instalar.
 
 > Indicamos código en producción
     npx webpack -p
@@ -41,11 +43,12 @@ npx webpack app.js -o output.js
     https://github.com/jantimon/html-webpack-plugin
     npm i --save-dev html-webpack-plugin
 
-- Webpack server
+- Webpack server. Es una herramienta de desarrollo para webpack.
     https://github.com/webpack/webpack-dev-server
     npm install webpack-dev-server --save-dev
 
-- Ejecutamos. Se crear un servidor con el puerto 8080. Tener en cuenta si activo IIS
+- Ejecutamos. Se crear un servidor con el puerto 8080. Tener en cuenta si activo IIS. Te prepara un servidor y se muestra por el puerto 5000.
+
     npx webpack-dev-server
     localhost:8080
 
